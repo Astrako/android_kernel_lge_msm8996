@@ -305,6 +305,12 @@ config LGE_DISPLAY_OVERRIDE_MDSS_DSI_CTRL_SHUTDOWN
 	The LGE DISPLAY COMMON provides support for
 		ovrriding mdss_dsi_ctrl_shutdown() function.
 
+config LGE_DISPLAY_H1_COMMON
+	depends on LGE_DISPLAY_COMMON
+	bool "Use LGE DISPLAY H1 COMMON"
+	---help---
+	The H1 COMMON provides support for H1 panel
+
 config LGE_DISPLAY_HPLUS_COMMON
 	depends on LGE_DISPLAY_COMMON
 	bool "Use LGE DISPLAY HPLUS COMMON"

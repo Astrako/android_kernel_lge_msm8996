@@ -65,6 +65,8 @@ static int color_convert_enabled = 0;
 
 #if defined(CONFIG_LGE_DISPLAY_BL_EXTENDED)
 #define SKIP_ROI_SIZE 160
+#elif defined(CONFIG_LGE_DISPLAY_H1_COMMON)
+#define SKIP_ROI_SIZE 680
 #elif defined(CONFIG_LGE_DISPLAY_LUCYE_COMMON)
 #define SKIP_ROI_SIZE 800
 #endif
