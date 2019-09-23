@@ -426,3 +426,12 @@ ssize_t mdss_fb_is_valid(struct device *dev,
 
 	return ret;
 }
+
+int lge_ddic_ops_init(struct mdss_dsi_ctrl_pdata *ctrl_pdata)
+{
+	int rc = 0;
+
+	pr_info("%s: ddic_ops is not configured\n", __func__);
+
+	return rc;
+}
