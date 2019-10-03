@@ -14,7 +14,7 @@
 	android {
 		fstab {
 			system {
-				fsmgr_flags = "wait,verify";
+				fsmgr_flags = "wait";
 				status = "ok";
 			};
 		};
